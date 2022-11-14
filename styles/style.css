@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #1b2c38;
+}
+/*Navbar*/
+nav{
+    background: #1b2c38;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*Header content*/
+header{
+    background: #1b2c38;
+}
+.header-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-down p, .header-down h1{
+    margin-top: 10px;
+    color: white;
+}
+/*Main content*/
+main{
+    background: #1b2c38;
+    padding: 50px;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.carta h5{
+    color: white;
+}
+.carta p{
+    color: rgb(190, 190, 190);
+}
+/*Section styles*/
+.section-image {
+    background: #1b2c38;
+    padding: 50px;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-text h3{
+    color: white;
+}
+.section-text p{
+    color: rgb(190, 190, 190);
+}
+.section-text a{
+    text-decoration: none;
+    color: aqua;
+    align-self: flex-start;
+}
+/*Testiomniales*/
+.testimoniales-section{
+    background: #1b2c38;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.testimoniales-section img{
+    width: 50px !important;
+    height: 50px;
+}
+.user{
+    padding: 20px;
+    border-radius: 5px;
+    background: #13222c;
+    box-shadow: 10px 10px 5px 5px #0c171f;
+    margin-top: 40px;
+}
+/*Presentation card*/
+.presentation{
+    margin:0 auto;
+    color: white;
+    background: #132029;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+     
+}
+.presentation form{
+    display: flex;
+    justify-content: center;
+}
+.presentation form input{
+    margin-right: 10px;
+    width: 60%;
+}
+/*Footer styles*/
+.footer{
+    background: #0f2738;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    
+   
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-top: 10px;
+}
+.social-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.social-list li{
+    margin: 0 7px;
+    color: white;
+}
+.col-md-3 li a{
+    color: gray;
+    text-decoration: none;
+}
